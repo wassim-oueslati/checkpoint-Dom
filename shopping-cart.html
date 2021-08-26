@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <title>Shopping Cart</title>
         <link rel="stylesheet" href="./shopping-cart.css" />
+        <link rel="icon" href="./images/download.png" type="image/x-icon">
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
           crossorigin="anonymous"
         />
-        <meta charset="utf-8" />
+
     </head>
     <body>
         
@@ -22,11 +24,18 @@
     
                 <div class="bar">
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="shopping-cart.html">Home</a></li>
                     </ul>
                     <ul>
                         <li><a href="#">Store</a></li>
                     </ul>
+                    <ul>
+                      <li class="cart">
+                          <a href="#">
+                              <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                          </a>
+                      </li>    
+                  </ul>
 
                 </div>
               
@@ -36,7 +45,7 @@
         <main>
             <section class="backk">
                 <div class="container">
-                    <div class="totale"><p id="totalp">Shopping Bag total : $0</p></div>
+                    <div class="totale"><p id="total-basket">basket Total : $0</p></div>
               
                     <div class="row">
                       <i class="fas fa-trash-alt"></i> <i class="fas fa-heart"></i>
@@ -52,12 +61,8 @@
                     <div class="row">
                       <i class="fas fa-trash-alt"></i>
                       <i class="fas fa-heart"></i>
-                      <img
-                        src="./images/PinkDonuts.jpg"
-                      />
-                      <p>
-                        <span>Pink Donuts</span>
-                      </p>
+                      <img src="./images/PinkDonuts.jpg" />
+                      <p><span>Pinki Donuts</span></p>
                       <i class="fas fa-plus-square add"></i>
                       <p class="qte">0</p>
                       <i class="fas fa-minus-square minus"></i>
@@ -66,9 +71,7 @@
               
                     <div class="lastrow">
                       <i class="fas fa-trash-alt"></i> <i class="fas fa-heart"></i>
-                      <img
-                        src="./images/SupremeDonuts.jpg"
-                      />
+                      <img src="./images/SupremeDonuts.jpg" />
                       <p><span>Super Donuts</span></p>
                       <i class="fas fa-plus-square add"></i>
                       <p class="qte">0</p>
@@ -82,7 +85,7 @@
 
         </main>
       
-      
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
           <script type="text/javascript" src="./shopping-cart.js"></script>
     </body>
 

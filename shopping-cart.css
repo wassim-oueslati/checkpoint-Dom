@@ -57,7 +57,7 @@ body {
 }
 
 .container {
-    width: 60%;
+    width: 49%;
     height: 400px;
     background-color: #dddada;
     border: 1px solid transparent;
@@ -65,7 +65,7 @@ body {
 }
 
 .totale {
-    border-bottom: 1px solid #d2d4d6;
+    border-bottom: 1px solid #1f2022;
 }
 
 .totale p {
@@ -75,13 +75,13 @@ body {
 }
   
 img {
-    width: 100px;
-    height: 100px;
+    width: 97px;
+    height: 97px;
     margin-bottom: 15px;
 }
 
 .fas {
-    color: #aab8c2 ;
+    color: #4c7fa3 ;
 }
 
 .row {
@@ -91,7 +91,7 @@ img {
     padding-left: 30px;
     padding-right: 50px;
     margin-top: 15px;
-    border-bottom: 1px solid #d2d4d6;
+    border-bottom: 1px solid #1f2022;
 }
   
 .lastrow {

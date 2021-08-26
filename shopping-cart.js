@@ -1,5 +1,5 @@
 var buttonsPlus = Array.from(document.getElementsByClassName("add"));
-// console.log(buttonsPlus);
+
 
 for (let btnPlus of buttonsPlus) {
   btnPlus.addEventListener("click", function () {
@@ -32,7 +32,6 @@ let hearts = document.getElementsByClassName("fa-heart");
 for (let heart of hearts) {
   heart.addEventListener("click", function () {
 
-    // heart.classList.toggle("red");
 
     if (heart.style.color === "grey") {
       heart.style.color = "red";
@@ -41,3 +40,4 @@ for (let heart of hearts) {
     }
   });
 }
+
